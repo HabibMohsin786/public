@@ -1,0 +1,933 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OlX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        .top_box {
+            height: 25px;
+        }
+
+        .t_b_1:hover {
+            color: #0d6efd;
+            text-decoration: none;
+        }
+
+        .end a:hover {
+            text-decoration: none;
+        }
+
+        .end2 {
+            background-repeat: no-repeat;
+            width: 110px;
+            height: 100%;
+            background-image: url("Image/asset\ 1.svg");
+        }
+
+        .anc {
+            color: black;
+            word-spacing: 0.1px;
+        }
+
+        .anc:hover {
+            color: skyblue;
+        }
+
+        .anc1 {
+            color: black;
+            word-spacing: 0.1px;
+        }
+
+        .anc1:hover {
+            color: black;
+        }
+
+        .list {
+            list-style-type: none;
+            list-style-position: inside;
+        }
+
+        ul,
+        li,
+        a {
+            font-size: 12px;
+            text-decoration: none;
+            color: #002f34;
+        }
+
+        .phb {
+            font-weight: bold;
+            font-size: 16px;
+            color: #002f34;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header start -->
+    <div class="sticky-top">
+
+        <!-- navbar top box start -->
+        <div class="top_box">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ps-5 mt-0 pt-0">
+                <div class="container-fluid" style="font-family: 'Roboto', sans-serif;">
+                    <a class="navbar-brand fs-4 text-primary" style="font-weight: bolder;" href="#">o|x</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link ms-3 t_b_1" style="font-size: 14px;" aria-current="page"
+                                    href="#"><span class=" rounded-circle p-2 text-secondary fs-6 me-1"
+                                        style="background: linear-gradient(#dee2e6,#f7f8f8 ) ;"><i
+                                            class="fa-solid fa-car-rear t_b_1"></i></span> MOTORS</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link ms-3 t_b_1" style="font-size: 14px;" aria-current="page"
+                                    href="#"><span class=" rounded-circle p-2 text-secondary fs-6 me-1 p-2"
+                                        style="background: linear-gradient(#dee2e6,#f7f8f8 );"><i
+                                            class="fa-regular fa-building t_b_1"></i></span> PROPERTY</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- navbar top box end -->
+        <!-- navbar mid box stsrt -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary pt-0 mt-3">
+            <div class="container-md mt-0 pt-0">
+                <div class="mid_box_main mt-0 d-flex justify-content-center"
+                    style="width: 100%; height: 80px; background-color: #f7f8f8;">
+                    <div class=" pt-4 me-4">
+                        <img src="Image/asset 29.svg" height="30px" alt="">
+                    </div>
+                    <div cclass="nav-item dropdown ">
+                        <div class="dropdown d-inline mt-2 ">
+                            <button
+                                class="btn btn-white dropdown-toggle bg-white  border border-2 border-dark rounded-2 fs-6 my-3 lh-lg "
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="me-2"><i class="fa-solid fa-magnifying-glass"></i></span><span
+                                    class="me-5 lh-1" style="padding-right: 120px;">Pakistan</span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><button class="dropdown-item" type="button">Action</button></li>
+                                <li><button class="dropdown-item" type="button">Another action</button></li>
+                                <li><button class="dropdown-item" type="button">Something else here</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-item d-flex border border-2 rounded-2 border-dark my-3 ms-2">
+                        <input type="text" class="border border-0" placeholder="Find Cars, Mobile Phones more..."
+                            style="padding-right: 420px;">
+                        <div class="bg-dark text-center text-white ">
+                            <div class="p-1 px-3 fs-4">
+
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-item d-flex">
+                        <div class="end ms-4 mt-4 fs-5 fw-bold">
+                            <a href="" class="text-dark ">Login</a>
+                        </div>
+                        <div class="end2 mt-3 ms-3">
+                            <div class=" mx-4 mt-2 fw-bolder"><a class="text-dark"></a><img src="Image/asset 2.svg"
+                                    alt="">SELL</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar mid box end -->
+    </div>
+    <!-- navbar last box start -->
+    <nav class="navbar navbar-expand-lg bg-body-white bg-white p-0 m-0 ps-2 shadow-sm p-0 mb-0 bg-body-white rounded">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-dark">
+                    <li class="nav-item dropdown fw-semibold">
+                        <a class="anc1 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" aria-current="page" href="#">Mobile Phones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Motorcycles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Houses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Video-Audios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Tablets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="anc nav-link" href="#">Land & Plots</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar last box end -->
+    <!-- Header end -->
+
+    <!-- Content start -->
+    <!-- slider start -->
+    <div class="container my-3">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded-2">
+                <div class="carousel-item active">
+                    <img src="Image/bnr.jpeg" class="d-block w-100" alt="Image/bnr.jpeg">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/bnr.jpeg" class="d-block w-100" alt="Image/bnr.jpeg">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/bnr.jpeg" class="d-block w-100" alt="Image/bnr.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider end -->
+    <!-- all categories start -->
+    <div class="main container mx-5 p-0">
+        <p class="fs-4 fw-bold text-secondary-emphasis">All categories</p>
+        <div class="d-flex flex-wrap">
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 3.png" class="card-img-top" alt="Image/asset 3.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Mobiles</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 4.png" class="card-img-top" alt="Image/asset 4.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Vehicles</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 5.png" class="card-img-top" alt="Image/asset 5.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Property For
+                        Sale</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 6.png" class="card-img-top" alt="Image/asset 6.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Property For
+                        Rent</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 7.png" class="card-img-top" alt="Image/asset 7.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Electronics &
+                        Home Appliances</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 8.png" class="card-img-top" alt="Image/asset 8.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Bikes</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 9.png" class="card-img-top" alt="Image/asset 9.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Business,
+                        Industrial & Agriculture</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 10.png" class="card-img-top" alt="Image/asset 10.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Services</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 11.png" class="card-img-top" alt="Image/asset 11.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Jobs</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 12.png" class="card-img-top" alt="Image/asset 12.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Animals</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 13.png" class="card-img-top" alt="Image/asset 13.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Furniture &
+                        Home Decor</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 14.png" class="card-img-top" alt="Image/asset 14.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Fashion &
+                        Beauty</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 15.png" class="card-img-top" alt="Image/asset 15.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Books, Sports
+                        & Hobbies</p>
+                </div>
+            </div>
+            <div class="card p-3 p-0 border border-0" style="width: 7.5rem; height: 12rem;;">
+                <img src="Image/asset 16.png" class="card-img-top" alt="Image/asset 16.png">
+                <div class="card-body p-0">
+                    <p class="card-title text-center p-0 text-wrap fw-bold mt-2" style="font-size: 14px;">Kids</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- all categories ens -->
+    <!-- category mobile start  -->
+    <div class="main container mx-5 p-0">
+        <div class="d-flex">
+            <div class="col-md-6">
+                <p class="fs-4 fw-bold text-secondary-emphasis">Mobiles Phones</p>
+            </div>
+            <div class=" text-end col-md-6 ms-4">
+                <a href="#" class="text-decoration-none fw-bold">View more <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="data:image/jpeg;base64,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"
+                        class="card-img-top"
+                        alt="data:image/jpeg;base64,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">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">iPhone 15pro max non
+                            PTA</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Gardan
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">4 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="data:image/jpeg;base64,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"
+                        class="card-img-top"
+                        alt="data:image/jpeg;base64,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">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">iPhone 15pro max non
+                            PTA</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Gardan
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">4 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="data:image/jpeg;base64,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"
+                        class="card-img-top"
+                        alt="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEBIQFhUVFxUWFhUQGBUVFxcWFxcXFhYVFhUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OGA8QFSsdFRktKysrKy0rLSstKy03Ky03KzUtKy0tKy0rKy0rLSsrLS0rKy0rLS0tNy03LSsrLS0rLf/AABEIANgA6QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYDBAcCAQj/xABJEAACAQMABQUKCgkDBQEAAAAAAQIDBBEFBhIhMUFRYXGyBxMiNXKBkZKx0RQjMjM0UlR0ofAVQmJkgpPBwtJEc/EWJaLD4ST/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHREBAQEAAwADAQAAAAAAAAAAAAERAhIxIUFRA//aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTu75Q4Yz08P8A6zQlf1nwT80ce1kvKRcTYK/8PuOVS8ygfHpKv9WfqxJ2hlWEFaqaYrR3uM0vJj/Q8UtPylwl+ER2hi0Ar36Wn9Z+rE+/pSf1n6sR2hiwAgP0pP6z9WI/StRcHF+XHH4xY7QxPgjdHaXjUl3uScKmMqLeVJcrhLl6uJJGkAAAAAAAAAAAAAAAAAAAAAAw3dXZg5cy3db3L8WZiP07LFGXXDtxFEXO5UIurJJvOzTUuGVvcpdC4nIdZu6rKVRxto98injvlVySl0wpxwlHpyXjXNzlZSjSztOjXUcccyTSx0t4XnPz3QiuLWV+cGeE1quq6ra+RuJd7r01CeG1h5jJJZeHxTSy8PO5PD5C60qsXyI4NoSD+E0dn9WpCTfNGMk5N9GE/Mdc0DVlKEVvzhezlFmJFyp6N24bUcdXNzZK1cpx+Mpt7t7XRymGrrlSpt0VeW6fB+FFtdClnCZsW84vZSeVuXpIqWsbnbipc5tpkLoF+C1zN+0x6y60ULKOarzJ/JhHfJvkSXP+dxlVgyfTls+6PdSfxVnu5NuaTf8ABstr0s2qetulH/pKPnqJf0GDoteLxmPyoPag+aS3+h8H1ltt6qnGM1wklL0rJxKOs+lfslD+avcbVDXjTEVGEbe0wkkvjY8FuW/HQa4/CWOzg45/11pr7PafzI+49f8AXOmvs9r5qkfcXtE612EHHlrzpr7NbfzI/wCJ7p676aSzK1tpY5FVgm//ABHaL1rrwOdaud1CFSrG3v6E7WrL5O3vhLyZ8JLpXoOio0yAAAAAAAAAAAAABH6d+Zl1w7cSQI/T3zEuuHbiS+EVS6WYQT+rPtHN9P6mUpVHUhtwcm2+94w2+L2Gtz6ml0HRrurGMIym0oxjUlJvkSk236Ecd0/3Q69SbVvs0qefB8GMpyX1pOSeM82DMaqT0doFUt0IvfxlJ5k1zbkkl+cnvXi/nb2sKNNuLrSanJbn3uCT2U+TLks9Bp6ra3zqTVKuoty+ROK2cvjsyit2XyNY34TznKnNbdEfC6K2GlKD2oN8OGHGXQ1jfyNLkyX7RylQyo7Dy3nMUuG/cs8u7eXbULSs4wnTbbVPDhnkT2sx6k0mubMiu09DXUJYVGafDaxmK6VNeD58lp1d0T3qLXGUt8muG5NKKfLxe/qNcrCOgav1finLrZzyrF3V3cXFTeqU3Rgnwi4rNR9eXjPMXvQ6xbyXMpFT0JRzRvpY3q7ufNwObTDoxRi9rl5Oj84JqlerkKZSu8G1T0gMalSmuDq1bWUKGXJuLajxlD9aK5+TrSa3nMv0RcfZ6/8ALn7joVO96TYheiXEs1zV6Gufs9x/Ln7i16gaPuKddylTq06ew1PvicVJ/q4i+LXPyb+cs9K76WZ6dyW8icUvCXNymelP3fn8CLpXH585u0a3Sjm6ax6xaKV1bTg14cU5U5csKkU3Fprhwx1F87l2l5XWjqFSbzJLYb8lL/jzFSpVCT7gz/7XDy59pm+Dn/R0YAHRzAAAAAAAAAAAI7T/AMxLrh24kiR+n/mJddPtxJfCOca0wlVtqtGPypU6sF/EnjzZaOE004yed3GMlJb1yNNPg8o/QWkrZy3x4r8Sj6b0PSqS2qtv4XLKO0m+tqSz589Znjcas1StEW6lcU3TT2ac4zbfIoSUnv58L0nT9E52EnzJEFo6whHwYwcI82OPW2236cFmte9xXykW3THPdIa4pXEl3mn3qMnF8e+NReHLPBPc3jHnOi2Wj0nlcEm9/IkiJnqzYSrd/cfD2tppOWy5ZztOHDOd/MWPvm3HYpxai/lzlxkvqpci/PVLRjsYYoS6VJ+khdSbdTp30Xy3l0vTslmuIKNKS6GQHc8e68+/XPtiZvjU9c00tbzo1ZU5rDi2vczVp12dU161a+Ex75TwqsVy/rLmb5zk9zQlTk4zi4yXFPczXG7Esxu0rk3KdyQcZmanWLiasNK5NqlcFepXBuUbgzi6sVCvyG9Rrlet65I29Uy1qepViydwfxVT8qp25FNozyXLuD+KqflT7cjXBnlXRQAdGAAAAAAAAAAACK1kqYo9c6a9M0SpD60/Mr/cpdtEvixWmY50Ivij02MnNph+CR5kffg0eZGXJ8yB4VvHmRkjFI+ZPuQMOkVmnLqfsK33P3iN59+ufbEsV/L4uXUVXUephXf3259sRfFnq3V5lc1g0FRul4SxNcJx4+cla1wac63SY8bcr05q9Wtn4SzHknHh5+YiFI7POopLEkmt/Hfu5sFZ0zqhSq5lQ+Llzfqvzch0nP8AWLx/FDhUNqlVMekdGVaDxUi1zP8AVfUzXpzNMJmhXJS2uCvUahv29QzYsqz21Uv3cH8VU/Kn25HL7W4OodwfxVT8qfbkXiV0UAG2QAAAAAAAAAACH1p+YX+5S7aJgjdYvmJdcO3El8Ip7Z8yeGxk5tsmRkx5PuSj3kZPGTDXrOOEllvgQNIv4uXUyn6pTx8L++3HtRbryXgPPNvKhqnHdd/fLj2ov0JSvWxymnO5Ml2iLrzM4utt3R9jdYIidU8fCOQYup6pWhOOzUSlHG9S3r0FX0xqst87Z9dNvst+w2lc9JnpXj5xNhflSItxeGmmuKZu0KpPaa0dGvHbikprzbS5mVNNxeHxXIdJdYsxO0ap1zuC1P8AtsY82X6alX/FHFbesdn7gni9dX/srCI6aADSAAAAAAAAAAAEZrH9Hn1w7cSTIzWX6PPrh24kopLYyeGz5kw0yZGTHk+5A1rqu84TxjmMPfpcMs93EfC6zFgo9zk+9ybbxh7uJDal08wu/vtz7YkvKfgSXQ3+BpahxzTvPv1z7Ygfb+iQN1EtekKZWr1EVD1ma05mxXNKpIqPXfD7GsakpHyNQipehX/AjNP2uWqkeXdL+jFOqZpz2oNPm/EeCIoHb+4J4vW59fJ85W5fzxRxSnE7l3BvFcPKn25Goy6MADSAAAAAAAAAAAEXrL9Hn1w7cSUIvWb6NPrh24koomRk85GTLT1kZPORkBUinxPHeF0nvIyBguIJQljmZp9z1fFXn365/tN28fgS6maPc+l8Veffrn+0De0mVW/kWXScyraQkBE3EjQqSNm5kR9WYR4qTPCmY5zMTmVW0qhnoz6iOUzdsuJKPWydr7g3iuHlT7cjjVWGDsvcG8Vw8qfakWJXRgAaQAAAAAAAAAAAi9Zvo0+uHbiShF6z/Rp9cO3ElHP8jJ5yMmWnrIyecjIHrIyecjIGO7fgS6mRGpNbFO8X77c/2krdvwJdTKzq1X2Y3a/fLj2oCW0jclcvaxs391xIC7uQjFc1CPqzPVasatSZR5nMxuZ5nI8ZKM9ORP6Jts+FyIidE2Uqs1GKe8udSgqUFFeczViEuI7zr/cG8Vw8ufakckrnW+4N4rh5c+1IsSujAA0gAAAAAAAAAABFaz/Rp9cO3ElSK1p+jT64duJKOd5GTHkZMtMmRkx5GQMmRkx5GQPN2/Al1MpGjK+y7pfvdx7UXS7fgS6mc5hWxUuvvVftBGzfXJC16x7uq+TQnI1IPUpmKUgyS0Rq/cXTxRpya4bT3RXXJgRLJjQOrla5a2YtQzvm9yXvL5ofUCjQxO6l3yS/VjlQ8/KyWvL2MVswSilyLd0f0M2riKt9H0rWGzTWXjwpPi3/AEIa/uMtmfSF9nO8gbu5EXXytWOw9wXxXDy59qRwyrWO59wXxXDy59pmoy6OACoAAAAAAAAAAAROtP0Wp/B24ksROtX0Wp/B24ko5rkZPGRkjT3kZPGRkD3kZPGRkDzdvwJdTOXXVTFW5X7zW7Z066fgS6mcpv38fc/eK3bYiMM55JHQer9xdy2aFNvHGT3Qj1ye7zFj1F1K+E/H3OY0ORJ4lUfRzR47zpvwmlbw73QhGEFwUVhbvaLVkVzQXc7trfE7mTrTXJwprzcX/wAE9WvYU4qMEopcFHcvwIu90t0rHMiDutINv8/nnMq39I6Ub5fQVy/vWY7q647yJuaxZE14u7kjK1U9V6n5Zo1ZmkJ1D9A9wXxXHy59pn53P0R3BfFcfLn2mB0cAFQAAAAAAAAAAAiNbH/+Wp/B24kuRmstFztaqjveztJc+y1LH4CjloyAZaMgAAAAMV18iXUzm1G0dW7rR+tdVU+jw979p0uvHMWugpGiIbN5XznPfHVS6Kiz58PKA6HVvo0oRpwwoxiopLkSWCFutI5ZXbnSj2nl7+g153/STF1K1rzpI2td545NKrdZ5jVqVy4jbrVzSrVeswyrGCdQqPlWoaspGWRj2QFOOT9C9wTxXHy59pn5/TUYtvkT/PsP0d3F7CVHRdLaTTk5Sw+Z4/rkC9AAqAAAAAAAAAAAAACg6f1TnCTnb4dN5exwcOdLnj1b0Vt0mtzcU+ZySfobAJYp3vph68PeO9/tQ9eHvAIp3v8Aah68PeO9/tQ9eHvAIHe/2oevD3ld05oGUpqtRqQhVjwkpReU+MZRzvi/w4gFFYv9HXc5Z7xBvldKpHZb6IzakjVWir1/6eXr0/eAEeloq8+zS9en7zw9DXn2aXr0/efQNHj9B3n2eXr0/wDIfoK8+zy9en7wBo+foK7+zy9en/kfVoG85Ld+vTX9wA0XXUvuUXFzONS8cadFNPYi8yljn/OOvg+/W1CNOEYQSUYpRilyJbkAaRlAAAAAAAB//9k=">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">iPhone 15pro max non
+                            PTA</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Gardan
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">4 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="data:image/jpeg;base64,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"
+                        class="card-img-top"
+                        alt="data:image/jpeg;base64,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">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">iPhone 15pro max non
+                            PTA</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Gardan
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">4 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- category mobile end  -->
+
+    <!-- category Cars start  -->
+    <div class="main container mx-5 p-0 mt-5">
+        <div class="d-flex">
+            <div class="col-md-6">
+                <p class="fs-4 fw-bold text-secondary-emphasis">Cars</p>
+            </div>
+            <div class=" text-end col-md-6 ms-4">
+                <a href="#" class="text-decoration-none fw-bold">View more <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://tyrepoint.pk/wp-content/uploads/2019/10/Kia-Sportage-tyrepoint.pk-1-1-wpv_600x_center_center.jpg"
+                        class="card-img-top" alt="KIA Sportage">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">KIA Sportage</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">DHA
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">3 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://pakobserver.net/wp-content/uploads/2023/10/Studio-Session-524_04-750x451.jpg"
+                        class="card-img-top" alt="Suzuki Alto">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.3,000,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">SUZUKI Alto VXL</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Korani No.5
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://imgd.aeplcdn.com/664x374/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-20.jpeg?isig=0&q=80"
+                        class="card-img-top"
+                        alt="https://www.google.com/imgres?imgurl=https%3A%2F%2Ftyrepoint.pk%2Fwp-content%2Fuploads%2F2023%2F05%2FToyota-Fortuner-Legender-2023-1.jpg&imgrefurl=https%3A%2F%2Ftyrepoint.pk%2Fnew-cars%2Ftoyota%2F&docid=Z_azFHKvQWHmLM&tbnid=1zmwUIE382wUMM&vet=12ahUKEwjPtNfb246EAxUV3QIHHfw8ARwQM3oECAkQAA..i&w=900&h=600&ved=2ahUKEwjPtNfb246EAxUV3QIHHfw8ARwQM3oECAkQAA">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000,00 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">TOYOTA Fortuner 4X2 AT
+                            2.8 Diesel</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Landhi No.4
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://tyrepoint.pk/wp-content/uploads/2021/07/Changan-Alsvin-TyrePoint-3.jpg"
+                        class="card-img-top" alt="Changan Alsvin">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Changan Alsvin Lumiere
+                            1.5L DCT</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Shah Faisal
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1.5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- category Cars end  -->
+
+    <!-- category Bikes Start  -->
+    <div class="main container mx-5 p-0 mt-5">
+        <div class="d-flex">
+            <div class="col-md-6">
+                <p class="fs-4 fw-bold text-secondary-emphasis">Bikes & Motorcycles</p>
+            </div>
+            <div class=" text-end col-md-6 ms-4">
+                <a href="#" class="text-decoration-none fw-bold">View more <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://cache2.pakwheels.com/system/bike_model_pictures/971/original/Unique_UD70.jpg?1448607011"
+                        class="card-img-top" alt="Unique UD-70">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.100,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Unique Xtreme UD 70
+                        </p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Mehran Town
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px" src="https://www.atlashonda.com.pk/wp-content/uploads/2019/01/cb125f-red-01.png"
+                        class="card-img-top" alt="Suzuki Alto">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.390,900 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Honda CB125F</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Korani No.6
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">2 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px" src="https://suzukipakistan.com/media/cards/14.png" class="card-img-top"
+                        alt="Suzuki CD-110">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.550,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Suzuki CD-110</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Landhi No.4
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://bikes.tractorjunction.com/_next/image?url=https%3A%2F%2Fimages.tractorjunction.com%2F1_rx_100_5855d3b4b4.png&w=750&q=75"
+                        class="card-img-top" alt="YAMAHA RX 100n">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.500,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">YAMAHA RX 100</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Shah Faisal
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1.5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- category Bikes end  -->
+
+    <!-- category Video-Audios Satrt  -->
+    <div class="main container mx-5 p-0 mt-5">
+        <div class="d-flex">
+            <div class="col-md-6">
+                <p class="fs-4 fw-bold text-secondary-emphasis">Video-Audios</p>
+            </div>
+            <div class=" text-end col-md-6 ms-4">
+                <a href="#" class="text-decoration-none fw-bold">View more <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://bakar.pk/cdn/shop/products/2_3c78e9c5-37f1-4e21-b408-aec6619e2599_391x.jpg?v=1702558641"
+                        class="card-img-top" alt="TCL LED Tv 4K UHD Andriod">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.120,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">TCL LED Tv 50 inchs
+                        </p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Mehran Town
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://electrociti.pk/wp-content/uploads/2023/08/AFP-000320723_1024x1024.webp"
+                        class="card-img-top" alt="AUDIONIC REBORN HOME THEATER RB110">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.40,000</p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">AUDIONIC REBORN HOME
+                            THEATER</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Korani No.6
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">2 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://www.3way-tech.com/media/catalog/product/cache/0c7345ab2ada4f702aaf999a04e3a9d0/s/p/spklen-k3_1.jpg"
+                        class="card-img-top" alt="Lenovo K3 Plus Bluetooth">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.3000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Lenovo K3 Plus
+                            Bluetooth</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Landhi No.4
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://news.samsung.com/global/wp-content/themes/btr_newsroom/download.php?id=wh1N%2FuBQbmTE4Q14%2B6BXS3cIe2h9FIPFzKNa3EsW0Ao%3D"
+                        class="card-img-top" alt="Samsung Advanced Smart TV">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.150,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">Samsung Advanced Smart
+                            TV</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Shah Faisal
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1.5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- category Video-Audios end  -->
+
+    <!-- category Plots Start  -->
+    <div class="main container mx-5 p-0 mt-5">
+        <div class="d-flex">
+            <div class="col-md-6">
+                <p class="fs-4 fw-bold text-secondary-emphasis">Land & Plots</p>
+            </div>
+            <div class=" text-end col-md-6 ms-4">
+                <a href="#" class="text-decoration-none fw-bold">View more <i class="fa-solid fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-evenly">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px" src="https://assets.land.com/resizedimages/10000/0/h/80/1-4115129832"
+                        class="card-img-top" alt="2 acres Plot">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.12,000,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">2 acres Plot</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Sukkur
+                            Sindh</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">3 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px" src="https://i.pinimg.com/736x/df/f3/db/dff3db7db815dbbf241b65a900bf5498.jpg"
+                        class="card-img-top" alt="120 square feet land ">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.4,000,000</p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">120 square feet land
+                        </p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Korani No.6
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">2 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzHgoxOQ5exhDLi46KcGXy0WT3K0sBeNySPmstGpCVOw&s"
+                        class="card-img-top" alt="2 Acres Fertile Agriculture Land">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.300,000,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">2 Acres Fertile
+                            Agriculture Land</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">Dadu
+                            Sindh</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" style="width: 18rem; height: 21rem;">
+                    <img height="180px" src="https://imagecdn.99acres.com/media1/23418/7/468367828M-1705734048762.jpg"
+                        class="card-img-top" alt="safoora goth 400 sq-ft">
+                    <div class="card-body border border-top-1 ">
+                        <div class="d-flex justify-content-between">
+                            <p class="card-text fw-bold lh-2 ">Rs.150,000,000 </p>
+                            <i class="fa-regular fa-heart fs-4"></i>
+                        </div>
+                        <p class="card-text lh-3 p-0" style="font-size: 14px; line-height: 35px;">safoora goth 400 sq-ft
+                        </p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 15px;">safoora
+                            goth
+                            Karachi</p>
+                        <p class="card-text  p-0 text-secondary" style="font-size: 12px; line-height: 0px;">1.5 week ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- category Plots end  -->
+
+    <!-- bener buttom start -->
+    <div class="container mt-5">
+        <div class="bnr_b text-center">
+            <img height="100%" src="Image/bnr_b.jpeg" alt="">
+        </div>
+    </div>
+    <!-- bener buttom end  -->
+
+    <!-- Content end -->
+    <!-- Footer Start -->
+
+    <!-- Footer top Start -->
+    <div class="p-0 m-0 mt-3 bg-body-tertiary">
+        <div class="row ">
+            <div class="col-md-4">
+                <img src="Image/asset 18.jpeg" alt="">
+            </div>
+            <div class="col-md-4">
+                <div class="px-4 mt-5 border-end border-dark-subtle border-2">
+                    <h2 class="fw-bold ">TRY THE OLX APP</h2>
+                    <p class="fs-5 mt-4">
+                        Buy, sell and find just about anything using the app on your mobile.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="container mt-5">
+                    <h6>GET YOUR APP TODAY</h6>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href=""><img src="Image/asset 19.svg" alt=""></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href=""><img src="Image/asset 20.svg" alt=""></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href=""><img src="Image/asset 21.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer top end -->
+
+    <!-- Footer Mid Start -->
+    <div class="bg-body-secondary p-0 m-0 border-top border-1 border-secondary">
+
+        <div class="row px-3 ms-3 pb-5">
+            <div class="col-md-2">
+                <p class="phb p-0 m-0 my-3 ">POPULAR CATEGORIES</p>
+                <ul class="list p-0">
+                    <li>
+                        <a href="">car</a>
+                    </li>
+                    <li>
+                        <a href="">Flats for rent</a>
+                    </li>
+                    <li>
+                        <a href="">Mobile Phones</a>
+                    </li>
+                    <li>
+                        <a href="">Jobs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <p class="phb p-0 m-0 my-3 ">TRENDING SEARCHES</p>
+                <ul class="list p-0">
+                    <li>
+                        <a href="">Bikes</a>
+                    </li>
+                    <li>
+                        <a href="">Watches</a>
+                    </li>
+                    <li>
+                        <a href="">Books</a>
+                    </li>
+                    <li>
+                        <a href="">Dogs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <p class="phb p-0 m-0 my-3 ">ABOUT US</p>
+                <ul class="list p-0">
+                    <li>
+                        <a href="">About Dubizzle Group</a>
+                    </li>
+                    <li>
+                        <a href="">OLX Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">OLX for Businesses</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <p class="phb p-0 m-0 my-3 ">OLX</p>
+                <ul class="list p-0">
+                    <li>
+                        <a href="">Help</a>
+                    </li>
+                    <li>
+                        <a href="">Sitemap</a>
+                    </li>
+                    <li>
+                        <a href="">Terms of use</a>
+                    </li>
+                    <li>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="phb p-0 m-0 my-3 ">FOLLOW US</p>
+                <div class="row">
+                    <div class="col-md-1"><a href=""><img width="25px" src="Image/asset 22.svg" alt=""></a></div>
+
+                    <div class="col-md-1"><a href=""><img width="25px" src="Image/asset 23.svg" alt=""></a></div>
+                    <div class="col-md-1"><a href=""><img width="25px" src="Image/asset 24.svg" alt=""></a></div>
+                    <div class="col-md-1"><a href=""><img width="25px" src="Image/asset 25.svg" alt=""></a></div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3"><a href=""><img width="100px" src="Image/asset 19.svg" alt=""></a></div>
+                    <div class="col-md-3"><a href=""><img width="100px" src="Image/asset 20.svg" alt=""></a></div>
+                    <div class="col-md-3"><a href=""><img width="100px" src="Image/asset 21.svg" alt=""></a></div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer Mid end -->
+
+    <!-- Footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
