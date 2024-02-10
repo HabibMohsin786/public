@@ -1,0 +1,60 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.top_box {
+    height: 25px;
+}
+
+.t_b_1:hover {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.end a:hover {
+    text-decoration: none;
+}
+
+.end2 {
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 100%;
+    background-image: url("Image/asset\ 1.svg");
+}
+
+.anc {
+    color: black;
+    word-spacing: 0.1px;
+}
+
+.anc:hover {
+    color: skyblue;
+}
+
+.anc1 {
+    color: black;
+    word-spacing: 0.1px;
+}
+
+.anc1:hover {
+    color: black;
+}
+
+.list {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ul,
+li,
+a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #002f34;
+}
+
+.phb {
+    font-weight: bold;
+    font-size: 16px;
+    color: #002f34;
+}
